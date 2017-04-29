@@ -1,1 +1,17 @@
-theme: jekyll-theme-slate
+# Site settings
+title: Duodecimo Aprendizagem Automática
+email: duodecimo@gmail.com
+description: "Materiais e notas do curso livre sobre aprendizagem automática na Universidade Severino Sombra, Vassouras, RJ."
+baseurl: ""
+url: "http://duodecimo.github.io"
+github_username:  duodecimo
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
